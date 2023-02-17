@@ -1,11 +1,11 @@
 import React from 'react';
 import Expense from './components/Expenses/Expenses';
-
+import NewExpense from './components/NewExpense/NewExpense';
 function App() {
   
   return (
     <div>
-      <h2> Expense Tracker</h2>
+      <NewExpense/>
       <Expense></Expense>
      </div>
   )
