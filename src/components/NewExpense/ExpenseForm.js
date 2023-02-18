@@ -51,7 +51,7 @@ const ExpenseForm = () => {
     console.log(expenseData);
     setEnteredTitle('');
     setEnteredAmount('')
-    setEnteredDate('');
+    setEnteredDate('')
   };
 
   return (
@@ -71,7 +71,7 @@ const ExpenseForm = () => {
             step='0.01'
             value={setEnteredAmount}
             onChange={amountChangeHandler}
-          />
+            />
         </div>
         <div className='new-expense__control'>
           <label>Date</label>
