@@ -5,7 +5,6 @@ import Card from '../UI/Card';
 
 
 const  ExpenseItem1 = (props) => {
- 
     const[title,setTitle]=useState(props.title);
     console.log("expenseItem evaluated by React");
 
